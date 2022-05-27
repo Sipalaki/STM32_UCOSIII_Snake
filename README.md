@@ -1,1 +1,3 @@
 # STM32_UCOSIII_Snake
+
+洋桃1号开发板，STM32F103C8T6,UCOSIII,OLED,JoyStick,贪吃蛇
