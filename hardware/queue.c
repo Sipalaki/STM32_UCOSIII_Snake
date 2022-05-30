@@ -36,7 +36,7 @@ int deQueue(struct Queue *pq){  //????
 int searchQueue(int x,int y,struct Queue *xq,struct Queue *yq){
 	int p = xq->front;
 	int q = xq->rear;
-	if(q-1<0) q=16;else{q = q-1;}
+	if(q-1<0) q=xq->capacity;else{q = q-1;}
 	if(isEmpty(xq)) return 0;
 	else{
 		while(p!=q){
